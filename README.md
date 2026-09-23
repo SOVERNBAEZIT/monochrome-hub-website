@@ -1,10 +1,18 @@
- 🏢 Monochrome Hub — Venue & Sports Arena Digital Catalog
+# 🏢 Monochrome Hub — Venue & Sports Arena Digital Catalog
+
+<p align="center">
+  <a href="https://sovernbaezit.github.io/monochrome-hub-website/monochrome-hub-website/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_LIVE_DEMO-Kunjungi_Website-000000?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo">
+  </a>
+</p>
 
 Selamat datang di repository resmi **Monochrome Hub Website**! Sebuah platform landing page modern, elegan, dan responsif yang dirancang khusus untuk memamerkan fasilitas unggulan, informasi harga, serta kemudahan reservasi arena olahraga dan aula serbaguna.
 
+👉 **Link Live Demo:** [https://sovernbaezit.github.io/monochrome-hub-website/monochrome-hub-website/](https://sovernbaezit.github.io/monochrome-hub-website/monochrome-hub-website/)
+
 ---
 
- ✨ Fitur Utama
+## ✨ Fitur Utama
 
 * 🏀 **Basketball Court Booking**: Informasi ketersediaan jadwal dan fasilitas lapangan basket terkini.
 * 🏛️ **Function Hall Lantai 3**: Katalog ruang serbaguna luas untuk acara seminar, wisuda, gathering, pameran, hingga pernikahan privat.
@@ -13,7 +21,7 @@ Selamat datang di repository resmi **Monochrome Hub Website**! Sebuah platform l
 
 ---
 
- 🛠️ Teknologi yang Digunakan
+## 🛠️ Teknologi yang Digunakan
 
 * **HTML5** — Struktur konten yang rapi dan *semantic*.
 * **CSS3** — Tata letak responsif (*Flexbox/Grid*) dengan estetika tema monokrom modern.
@@ -21,7 +29,7 @@ Selamat datang di repository resmi **Monochrome Hub Website**! Sebuah platform l
 
 ---
 
- 📍 Fasilitas yang Dikelola
+## 📍 Fasilitas yang Dikelola
 
 | Layanan | Deskripsi |
 | :--- | :--- |
