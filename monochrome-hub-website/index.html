@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monochrome Hub | Premium Space & Ecosystem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR HEADER -->
+    <nav class="navbar">
+        <div class="logo">MONOCHROME<span>HUB</span></div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-btn active" data-tab="hero">Beranda</a></li>
+            <li><a href="#" class="nav-btn" data-tab="catalog">Katalog Space</a></li>
+            <li><a href="#" class="nav-btn" data-tab="about">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <!-- TAB CONTENT WRAPPER -->
+    <main class="main-content">
+
+        <!-- TAB 1: BERANDA / HERO -->
+        <div id="hero" class="tab-content active">
+            <section class="hero-section">
+                <div class="hero-container">
+                    <h1>MONOCHROME HUB</h1>
+                    <p>Eksplorasi ruang usaha, ruang rapat, function hall, hingga lapangan basket dalam satu ekosistem eksklusif.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-primary nav-btn" data-tab="catalog">Eksplorasi Space</button>
+                        <button class="btn-secondary" onclick="openWA('628131208930', 'Halo Admin, saya ingin bertanya tentang Monochrome Hub.')">Hubungi Administrator</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- TAB 2: KATALOG SPACE -->
+        <div id="catalog" class="tab-content">
+            <section id="catalog-section" class="catalog-container">
+                <div class="catalog-header">
+                    <h2>Katalog Fasilitas & Space</h2>
+                    <p>Pilih fasilitas dan area ruang yang tersedia di Monochrome Hub.</p>
+                </div>
+
+                <div id="card-grid" class="card-grid">
+
+                    <!-- KARTU 1: LANTAI G (Space Disewakan / Bimbel / Usaha) -->
+                    <div class="card card-for-rent">
+                        <div>
+                            <div class="card-header">Lantai G: Ground Floor</div>
+                            <h3>Space For Rent</h3>
+                            <p>Area strategis lantai dasar yang siap disewakan untuk kebutuhan bimbingan belajar (bimbel), kantor, pop-up store, atau tempat usaha.</p>
+                            <div class="price-info">
+                                <span>Status: Available for Rent</span>
+                                <span>Kontak: 0813-1208-930</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="openWA('628131208930', 'Halo Admin, saya berminat sewa space Lantai G (For Rent / Bimbel).')" class="btn-card">Sewa Ground Space</button>
+                        </div>
+                    </div>
+
+                    <!-- KARTU 2: LANTAI 1 (HALT Coffee & Roastery) -->
+                    <div class="card">
+                        <div>
+                            <div class="card-header">1st Floor</div>
+                            <h3>HALT Coffee & Roastery</h3>
+                            <p>Area kafe dan specialty coffee shop untuk bersantai, bertemu klien, atau bekerja dengan suasana nyaman.</p>
+                            <div class="price-info">
+                                <span>Instagram: @halt.cofeeandroastery</span>
+                                <span>Contact: 0855-1553-101</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="openWA('628551553101', 'Halo Admin HALT Coffee & Roastery, saya ingin menanyakan informasi cafe.')" class="btn-card">Info Coffee Halt</button>
+                        </div>
+                    </div>
+
+                    <!-- KARTU 3: LANTAI 1 (Meeting Room) -->
+                    <div class="card">
+                        <div>
+                            <div class="card-header">1st Floor</div>
+                            <h3>Meeting Room</h3>
+                            <p>Ruang rapat privat dan profesional yang dilengkapi dengan fasilitas diskusi modern untuk tim dan bisnis Anda.</p>
+                            <div class="price-info">
+                                <span>Instagram: @monochrome.2025</span>
+                                <span>Contact: 0813-1208-930</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="openWA('628131208930', 'Halo Admin, saya ingin reservasi/menanyakan sewa Meeting Room Lantai 1.')" class="btn-card">Sewa Meeting Room</button>
+                        </div>
+                    </div>
+
+                    <!-- KARTU 4: LANTAI 2 (Basketball Court) -->
+                    <div class="card">
+                        <div>
+                            <div class="card-header">2nd Floor</div>
+                            <h3>Basketball Court</h3>
+                            <p>Lapangan basket indoor berstandar tinggi untuk latihan tim, pertandingan privat, atau event olahraga.</p>
+                            <div class="price-info">
+                                <span>Instagram: @monochromebballcourt</span>
+                                <span>Contact: 0852-1896-3033</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="openWA('6285218963033', 'Halo Admin Basketball Court, saya ingin cek ketersediaan jadwal lapangan.')" class="btn-card">Hubungi Admin Basket</button>
+                        </div>
+                    </div>
+
+                    <!-- KARTU 5: LANTAI 3 (Function Hall - Membentang Penuh di Bawah) -->
+                    <div class="card card-full-width">
+                        <div>
+                            <div class="card-header">3rd Floor</div>
+                            <h3>Function Hall</h3>
+                            <p>Hall serbaguna luas untuk seminar, wisuda, gathering, pameran, hingga acara pernikahan dan privat.</p>
+                            <div class="price-info">
+                                <span>Instagram: @monochrome.2025 | Contact: 0813-1208-930</span>
+                                <span>Weekdays: Rp4.000.000 / 5 jam | Weekend: Rp5.000.000 / 5 jam</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button onclick="openWA('628131208930', 'Halo Admin, saya ingin menanyakan sewa Function Hall Lantai 3.')" class="btn-card">Sewa Function Hall</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- TAB 3: TENTANG (ABOUT) -->
+        <div id="about" class="tab-content">
+            <section class="about-section">
+                <div class="about-container">
+                    <span class="about-badge">TENTANG KAMI</span>
+                    <h2 class="section-title">The Essence of Monochrome Hub</h2>
+                    <p class="about-subtitle">
+                        Lebih dari sekadar penyedia tempat. Kami menciptakan ekosistem ruang modern yang memadukan produktivitas, olahraga, dan gaya hidup dalam satu harmoni estetika monokromatis.
+                    </p>
+                    
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <div class="about-icon">⚡</div>
+                            <h3>Arsitektur Monokrom</h3>
+                            <p>Desain berciri khas hitam-abu yang elegan, memberikan fokus maksimal, atmosfer profesional, dan fleksibilitas tanpa batas untuk setiap jenis acara.</p>
+                        </div>
+
+                        <div class="about-card">
+                            <div class="about-icon">🌐</div>
+                            <h3>Ekosistem Terpadu</h3>
+                            <p>Integrasi seamless antara Flexible Office, Meeting Room, Function Hall, Indoor Basketball Court, hingga Specialty Coffee dalam satu lokasi.</p>
+                        </div>
+
+                        <div class="about-card">
+                            <div class="about-icon">🛡️</div>
+                            <h3>Layanan Eksklusif</h3>
+                            <p>Akses reservasi privat yang aman, manajemen fasilitas profesional, serta kenyamanan tingkat tinggi untuk komunitas dan bisnis Anda.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Lantai Fasilitas</span>
+                        </div>
+                        <div class="stat-item border-left">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Ruang Privat & Eksklusif</span>
+                        </div>
+                        <div class="stat-item border-left">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Keamanan & Layanan</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Monochrome Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
